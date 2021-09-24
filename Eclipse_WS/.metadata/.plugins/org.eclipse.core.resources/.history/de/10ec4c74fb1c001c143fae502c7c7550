@@ -1,0 +1,16 @@
+package com.synechron.apiautomation.apitraining.post;
+
+public class DeserializePOJO {
+	
+	
+	@Test
+	public void deserializeTest()
+	{
+		GitRepoPOJO gp = new GitRepoPOJO();
+		gp.setName("POJO_Reopsitory");
+		gp.setDescription("POJO_Desc");
+		
+		
+	}
+
+}

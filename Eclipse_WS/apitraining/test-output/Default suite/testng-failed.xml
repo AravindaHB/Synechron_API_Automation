@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.synechron.apiautomation.apitraining.RestAssuredApproach">
+      <class name="com.synechron.apiautomation.apitraining.specifications.RequestSpecificationDemo">
         <methods>
-          <include name="getAllRepositories"/>
+          <include name="createRepoWithSpecification"/>
+          <include name="getSpecObj"/>
         </methods>
-      </class> <!-- com.synechron.apiautomation.apitraining.RestAssuredApproach -->
+      </class> <!-- com.synechron.apiautomation.apitraining.specifications.RequestSpecificationDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

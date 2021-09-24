@@ -1,0 +1,12 @@
+package com.synechron.apiautomation.apitraining.ser;
+
+public class CompanyDetails {
+	
+	private String companyName;
+	private String location;
+	private String ceo;
+	private String supportedBank;
+	private String pin;
+	
+
+}

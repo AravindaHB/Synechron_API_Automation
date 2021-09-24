@@ -1,0 +1,35 @@
+package com.synechron.apiautomation.apitraining.specifications;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.specification.RequestSpecification;
+
+public class RequestSpecificationDemo {
+	
+	private RequestSpecification reqSpec;
+	private RequestSpecBuilder builder;
+	
+	String baseUri = "https://api.github.com";
+	String projectName = "API_PROJECT_USING_REQ_SPE";
+	String barrierToken = "Bearer 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";
+	
+	
+	@BeforeClass
+	public void getSpecObj() {
+		builder = new RequestSpecBuilder();
+		builder.addHeader("Authorization", barrierToken);
+		builder.addHeader("Content-Type","application/json");
+		
+		reqSpec = builder.build();
+	}
+	
+	@Test
+	public void createRepoWithSpecification()
+	{
+		
+	}
+	
+
+}

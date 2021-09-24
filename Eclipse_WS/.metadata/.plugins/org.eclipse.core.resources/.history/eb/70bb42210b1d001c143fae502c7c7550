@@ -1,0 +1,16 @@
+package com.synechron.apiautomation.apitraining.delete;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class DeleteRepository {
+
+	
+	@Test
+	public void deleteRepo() {
+		
+		RestAssured.baseURI = "https://api.github.com";
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.synechron.apiautomation.apitraining.ser;
+
+public class Contractors {
+	
+	private String 	firstname;
+	private String lastname;
+	private String  age;//"		: 39,
+	private String  email;// "		: "aru03.info@gmail.comm",
+	private String empid ;//"
+
+	
+	
+}

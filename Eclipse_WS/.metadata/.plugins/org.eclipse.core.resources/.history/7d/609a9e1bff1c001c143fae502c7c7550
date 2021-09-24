@@ -1,0 +1,49 @@
+{
+	"companyName" : "Synechron",
+	"location"	: "India",
+	"CEO"		:"F-H",
+	"supported"  : ["HDFC", "ICICI" , "AXIS" ],
+	"pin"			: [22,222,3,3,333] 
+	"employee" : [
+		{
+			"firstname" : "Aravinda",
+			"lastname"	: "HB",
+			"age"		: 39,
+			"email"		: "aru03.info@gmail.comm",
+			"empid"		: 123123
+			
+		},
+		{
+			"firstname" : "Harry",
+			"lastname"	: "KL",
+			"age"		: 39,
+			"email"		: "aru03.info@gmail.comm",
+			"empid"		: 123123
+		},
+		{
+			"firstname" : "Vikky",
+			"lastname"	: "LL",
+			"age"		: 39,
+			"email"		: "aru03.info@gmail.comm",
+			"empid"		: 123123
+		}
+	
+	],
+	"contractors" : [
+	{
+			"firstname" : "Aravinda",
+			"lastname"	: "HB",
+			"age"		: 39,
+			"email"		: "aru03.info@gmail.comm",
+			"empid"		: 123123
+	},
+	{	"firstname" : "Aravinda",
+			"lastname"	: "HB",
+			"age"		: 39,
+			"email"		: "aru03.info@gmail.comm",
+			"empid"		: 123123
+	}
+	]
+	
+
+}

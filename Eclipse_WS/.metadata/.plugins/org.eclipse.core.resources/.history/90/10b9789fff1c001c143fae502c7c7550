@@ -1,0 +1,21 @@
+package com.synechron.apiautomation.apitraining.ser;
+
+import java.util.List;
+
+public class CompanyDetails {
+	
+	//one to one mapping
+	private String companyName;
+	private String location;
+	private String ceo;
+	
+	//list of elements
+	private List<String> supportedBank;
+	private List<String>pin;
+	
+	
+	private List<Employee> employee;
+	
+	
+
+}

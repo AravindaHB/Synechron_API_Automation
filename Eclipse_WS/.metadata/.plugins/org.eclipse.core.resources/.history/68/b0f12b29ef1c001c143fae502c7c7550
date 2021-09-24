@@ -1,0 +1,9 @@
+package com.synechron.apiautomation.apitraining.post;
+
+public class GitRepoPOJO {
+	
+	private String name;
+	private String description;
+	
+
+}

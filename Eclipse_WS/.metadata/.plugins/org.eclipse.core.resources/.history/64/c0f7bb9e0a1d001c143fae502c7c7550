@@ -1,0 +1,5 @@
+package com.synechron.apiautomation.apitraining.delete;
+
+public class DeleteRepository {
+
+}

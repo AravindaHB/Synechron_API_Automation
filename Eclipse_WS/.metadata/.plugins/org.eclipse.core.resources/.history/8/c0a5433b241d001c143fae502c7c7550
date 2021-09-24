@@ -1,0 +1,44 @@
+package com.synechron.apiautomation.apitraining.specifications;
+
+import java.io.PrintStream;
+import java.io.StringWriter;
+
+import org.apache.commons.io.output.WriterOutputStream;
+import org.testng.annotations.BeforeMethod;
+
+
+
+public class FiltersReqAndResSpec {
+	
+	public static StringWriter requestWriter;
+	public static PrintStream requestCapture;
+
+	
+	public static StringWriter responseWriter;
+	public static PrintStream responseCapture;
+
+	
+	public static StringWriter errWriter;
+	public static PrintStream errCapture;
+	
+	
+	
+	@BeforeMethod
+	public void beforeTest()
+	{
+		requestWriter = new StringWriter();
+		requestCapture = new PrintStream(new WriterOutputStream(requestWriter),true);
+		
+		responseWriter = new StringWriter();
+		responseCapture = new PrintStream(new WriterOutputStream(responseWriter),true);
+		
+		errWriter = new StringWriter();
+		errCapture = new PrintStream(new WriterOutputStream(errWriter),true);
+	}
+
+	
+	public void requestWithFilter()
+	{
+		
+	}
+}

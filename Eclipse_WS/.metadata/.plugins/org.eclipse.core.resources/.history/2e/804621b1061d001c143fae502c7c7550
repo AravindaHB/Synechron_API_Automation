@@ -1,0 +1,37 @@
+package com.synechron.apiautomation.apitraining.ser;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompanyDetaailsPOJO {
+	
+	
+	public void generatePOJO() {
+		CompanyDetails cd  =  new CompanyDetails();
+		
+		cd.setCompanyName("Synechron");
+		cd.setLocation("Bangalore");
+		cd.setCeo("FH");
+		
+		List<String> supportedBanks = new ArrayList<String>();
+		supportedBanks.add("ICICI");
+		supportedBanks.add("AXIS");
+		supportedBanks.add("HDFC");
+		
+		List<String> pincode = new ArrayList<String>();
+		pincode.add("1234");
+		pincode.add("2222");
+		pincode.add("1233");
+		pincode.add("6565");
+		
+		Employee e1 = new Employee();
+		e1.setFirstname("Aravinda");
+		e1.setLastname("HB");
+		e1.setAge("39");
+		e1.setEmpid("EMP_007");
+		e1.setEmail("aru03.info@gmail.com");
+		
+		List<Employee> employees = new ArrayList<Employee>();
+ 	}
+
+}

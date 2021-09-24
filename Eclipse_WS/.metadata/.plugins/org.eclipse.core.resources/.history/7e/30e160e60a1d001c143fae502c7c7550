@@ -1,0 +1,12 @@
+package com.synechron.apiautomation.apitraining.delete;
+
+import org.testng.annotations.Test;
+
+public class DeleteRepository {
+
+	
+	@Test
+	public void deleteRepo() {
+		
+	}
+}
