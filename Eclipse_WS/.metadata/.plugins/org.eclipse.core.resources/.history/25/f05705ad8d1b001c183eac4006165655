@@ -1,0 +1,13 @@
+package com.synechron.apiautomation.apitraining;
+
+import org.testng.annotations.Test;
+
+public class TrelloGetBoardTest
+{
+	
+	@Test
+	public void getBoardTest() {
+		
+	}
+
+}

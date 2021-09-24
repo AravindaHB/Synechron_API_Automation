@@ -1,0 +1,8 @@
+package com.synechron.apiautomation.apitraining.log;
+
+public class Snippet {
+	public static void main(String[] args) {
+		.statusCode(200);
+	}
+}
+

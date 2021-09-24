@@ -1,0 +1,16 @@
+package com.synechron.apiautomation.apitraining;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class TrelloGetBoardTest
+{
+	
+	
+	@Test
+	public void getBoardTest() {
+		RestAssured.baseURI = "https://api.trello.com";
+	}
+
+}
